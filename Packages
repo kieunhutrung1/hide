@@ -2,7 +2,7 @@ Package: com.ccteam.ccinfo
 Architecture: iphoneos-arm64e
 Version: 0.0.2
 Section: Tweaks
-Maintainer: Repo Cydia BVN
+Maintainer: Repo Cydia KNT
 Installed-Size: 2186070
 Pre-Depends: libSandy
 Depends: firmware (>= 15.0)
@@ -15,4 +15,213 @@ SHA256: 15111018f21135f867f0d4cdd68717f7f1b525f040d63618054571fdafbdeb74
 SHA512: ea46ed8aac3051bcc18b8dab7f71619a200960890d7ac6c8ae8b124f18ed06a3b5a83bfc69321294cf7ff2ca5223cedf71189687d68371f4eb00cbac4fb89210
 Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
 Name: CCinfo
-Author: Ryan Nair
+Author: KNT
+
+Package: com.opa334.libsandy
+Architecture: iphoneos-arm64e
+Version: 1.1.3-3-1+debug
+Section: Utilities
+Maintainer: Repo Cydia KNT
+Installed-Size: 20950
+Pre-Depends:
+Depends: firmware (>= 15.0)
+Conflicts: om.opa334.libsandy
+Filename: ./debs/com.opa334.libsandy_1.1.3-3-1+debug_iphoneos-arm64e.deb
+Size: 20950
+MD5sum: 08232087924064f25bb55cf652bb308e
+SHA1: 2ac0b33ba74db5ae9108b705c6329b66241179fb
+SHA256: 69f3dc5ab72ca278d24d65d54c73b583c03c81685dd6a651a94f0cacfed68b3f
+SHA512: 5b17d7abb6af72fc9d09ca84671043ecbdce1dd93bcf9ea3801b3f56e7bd515aec73948d217efd9d394cc589c3d935d1a8d96f493dbbbacbebb31d05cfe07012
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: libSandy
+Author: KNT
+
+Package: curl
+Architecture: iphoneos-arm64e
+Version: 8.0.1
+Section: Tweaks
+Maintainer: Repo Cydia KNT
+Installed-Size: 204024
+Pre-Depends: libc-ares2 , libcurl4 , libnghttp2-14 , librtmp1 , libssh2-1
+Depends: firmware (>= 15.0)
+Conflicts: ocurl
+Filename: ./debs/curl_8.0.1_iphoneos-arm64e.deb
+Size: 204024
+MD5sum: a144e018cde111015e4ebeb79e026cfd
+SHA1: 289b80f531af0a33e0d96f505160894127a7408c
+SHA256: bd3b6f71b4e0a6cb0e465d0346fb771f9109427faf1c143b0a7b4c91d30b94f4
+SHA512: b840500f02cf91e6e059d303067521daed4acb12d914c4b9d8f4b0989feadb90c6e2b4d90ebc8214ff21c6675d017f02331e8ca9ba44aa72701e36e289f1b742
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: curl
+Author: KNT
+
+Package: libc-ares2
+Architecture: iphoneos-arm64e
+Version: 1.19.0
+Section: Utilities
+Maintainer: Repo Cydia KNT
+Installed-Size: 36772
+Pre-Depends:
+Depends: firmware (>= 15.0)
+Conflicts: libc-ares2
+Filename: ./debs/libc-ares2_1.19.0_iphoneos-arm64e.deb
+Size: 36772
+MD5sum: 542fc9335813f8611c5138ce15699598
+SHA1: efd33278936e6b1ec9cab9f4f65e01ef8ad90f71
+SHA256: 0d542aeb1ee1aec44f8729a66b5f73694671c8ea56b4c85157fe8377c86f283e
+SHA512: b1ad2bbee5f9085fd7c902474a3f1391d6094041381ab1383e9e7394505e79b66a552bb0af5c8b9bc85a577298ec59fbf6e25387631a936b0766d061c40be52f
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: libc-ares2
+Author: KNT
+
+Package: libcurl4
+Architecture: iphoneos-arm64e
+Version: 8.0.1
+Section: Utilities
+Maintainer: Repo Cydia KNT
+Installed-Size: 255440
+Pre-Depends:
+Depends: firmware (>= 15.0)
+Conflicts: libcurl4
+Filename: ./debs/libcurl4_8.0.1_iphoneos-arm64e.deb
+Size: 255440
+MD5sum: b62a20a3437d622fb54bbf5c42a3b023
+SHA1: ac31222b8aeca437781018ba8642000d99eee3a0
+SHA256: 38130425bf76829dbe4835d6eb904c308b44dc2f0a348432f9add544445c82bd
+SHA512: 7c0e758b68e1a361f77f84fda4b3a28b2c25782fe81320230d1a6926c18738dfafdbb60243a638de7108d83c570ff1472fbea7c3cae6361bba941fa06297082a
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: libcurl4
+Author: KNT
+
+Package: libnghttp2-14
+Architecture: iphoneos-arm64e
+Version: 1.52.0
+Section: Utilities
+Maintainer: Repo Cydia KNT
+Installed-Size: 70756
+Pre-Depends:
+Depends: firmware (>= 15.0)
+Conflicts: libnghttp2-14
+Filename: ./debs/libnghttp2-14_1.52.0_iphoneos-arm64e.deb
+Size: 70756
+MD5sum: f1421d65d16ba00b880e874e50b8a9f8
+SHA1: 1865d2e16396c36a1d15040b18cb2f450de2f417
+SHA256: 34792e2db72aa8c627db1465910a874380daf1ccfb1d22e0de547355efa79dff
+SHA512: c494e2c20fdb0f64a385bcea396065d53ec3c4dd46a64ecd9445ca89a0f994b377dfbbd1586f3e1e86d96195c636444ff66cda26d02eebd3c509d4e77a55dfec
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: libnghttp2-14
+Author: KNT
+
+Package: librtmp1
+Architecture: iphoneos-arm64e
+Version: 2.4+20151223.gitfa8646d.1
+Section: Utilities
+Maintainer: Repo Cydia KNT
+Installed-Size: 76750
+Pre-Depends:
+Depends: firmware (>= 15.0)
+Conflicts: librtmp1
+Filename: ./debs/librtmp1_2.4+20151223.gitfa8646d.1_iphoneos-arm64e.deb
+Size: 76750
+MD5sum: 4d7b2d8fdd1fe0efdf70aa3eaba52bf3
+SHA1: bffe3f52c10092dfce9d1dd5376be319ba4d8fa4
+SHA256: a059354038346653fc483b75e1d48df55b7e608636dcbefe7f664126137fc9aa
+SHA512: 95a544fa20b3eb1ba3dd535ca455e03345274ad638a4a28dddb3827bb6d6250973da57581659ee98d29ba825adc57dec3f4bcef520578aaabd9b8d251209266a
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: librtmp1
+Author: KNT
+
+Package: libssh2-1
+Architecture: iphoneos-arm64e
+Version: 1.10.0-1
+Section: Utilities
+Maintainer: Repo Cydia KNT
+Installed-Size: 161228
+Pre-Depends:
+Depends: firmware (>= 15.0)
+Conflicts: libssh2-1
+Filename: ./debs/libssh2-1_1.10.0-1_iphoneos-arm64e.deb
+Size: 161228
+MD5sum: 7881d2261a35db36a907e9556b3668b9
+SHA1: 66385556e5db3eb7750936c278efc518bc22ed89
+SHA256: 0ba5ea3d3addac2ecdb7ed1f65e812cafe0a99e7a143a9b3e598ac809360a403
+SHA512: 2712e1bc430400d234aedb62ccbd23678b451fb5a86450724dad36df857dd87f93f3ec9c8932e6eeb0343ac7d50ad9b2d205ddd2a0b0132c42e0b35a49e40ebb
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: libssh2-1
+Author: KNT
+
+Package: unzip
+Architecture: iphoneos-arm64e
+Version: 6.0-28
+Section: Utilities
+Maintainer: Repo Cydia KNT
+Installed-Size: 148634
+Pre-Depends:
+Depends: firmware (>= 15.0)
+Conflicts: unzip
+Filename: ./debs/unzip_6.0-28_iphoneos-arm64e.deb
+Size: 148634
+MD5sum: 9c4291a9c256dfe71bb480a51077a523
+SHA1: 63e7f77024dfc2f7d899b5b860b7b4bca3dbe672
+SHA256: 8bc90e073330333a990b504d3c464741a15c7206daee217425bfce5a625f5d54
+SHA512: e91fb7a30b18b6fb47e6c80d5ea53f2686ddafba289bf5061882442c2777979a61df6f9d0138d9cb093b2e29aececf09e3dd99891a646c0735d6ffb06bfe3763
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: unzip
+Author: KNT
+
+Package: me.autotouch.autotouch.ios8.inputtext
+Architecture: iphoneos-arm64e
+Version: 8.5.4
+Section: Tweaks
+Maintainer: Repo Cydia KNT
+Installed-Size: 21635724
+Pre-Depends: ellekit , curl , unzip
+Depends: firmware (>= 15.0)
+Conflicts: libc-ares2
+Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_8.5.4_iphoneos-arm64e.deb
+Size: 21635724
+MD5sum: 58ad02ddcc797c80bd4e0a5982905883
+SHA1: 97a22a7e76f5e50f8583ce696b81de45ebdf01bc
+SHA256: 3216b62d7775af890a3d2ddf96d0892d8b093931204c969bb2bb2de9d80bfa2f
+SHA512: 36a1875b9e69e59dfbba736e23ec7d056863412ec82e0df64dad4e6a7f409ca508c536a2a0204d26785954fde95e2c5dac37c99f2b0a9497509475cf1d0b78ae
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: AutoTouch InputText
+Author: KNT
+
+Package: me.autotouch.autotouch.ios8.inputtext
+Architecture: iphoneos-arm64e
+Version: 8.5.5
+Section: Tweaks
+Maintainer: Repo Cydia KNT
+Installed-Size: 21636932
+Pre-Depends: ellekit , curl , unzip
+Depends: firmware (>= 15.0)
+Conflicts: libc-ares2
+Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_8.5.5_iphoneos-arm64e.deb
+Size: 21636932
+MD5sum: a4e2e8493d9f46349452572b7c60a348
+SHA1: a6ccbd7d3fef2af77391cf55ffc103a07f9b2ea8
+SHA256: b99ee0ab2b0d099a434798c0b9898a7dc64c96569ddb2337db9b56d36813dfb6
+SHA512: f982d848b02be8f4ede91a09b4c1c50c85ee35cb078c5b8b440563d7f17a06e993a35ea24ed9eb2a8e774aa35130218cc48ec86debf9e812876454ceca5557f2
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: AutoTouch InputText
+Author: KNT
+
+Package: ellekit
+Architecture: iphoneos-arm64e
+Version: 1.1.3
+Section: Utilities
+Maintainer: Repo Cydia KNT
+Installed-Size: 347040
+Pre-Depends:
+Depends: firmware (>= 15.0)
+Conflicts: ellekit
+Filename: ./debs/ellekit_1.1.3_iphoneos-arm64e.deb
+Size: 347040
+MD5sum: d819a192bb720d7e4d29c6f780d7aba1
+SHA1: ddba69c22d4603a3964758a0b3eab376ed03b1d5
+SHA256: a2ef1e994c145f628f3a9502c8820abd1a617643060c90ddb8db0a0008c724ac
+SHA512: c2d73d398f3b615b82cf5f7c5b219b6293d5e70c26853660cf145c6057c224ac65788392e47ff21655bcc7699fa8644b786adbc89a533e2bc691b2b1d2590a0a
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: ellekit
+Author: KNT
