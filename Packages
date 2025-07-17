@@ -4,8 +4,8 @@ Version: 0.0.2
 Section: Tweaks
 Maintainer: Repo Cydia KNT
 Installed-Size: 2186070
-Pre-Depends: libSandy
-Depends: firmware (>= 15.0)
+Pre-Depends:
+Depends: firmware (>= 15.0) ,com.opa334.libsandy
 Conflicts: com.ccteam.ccinfo
 Filename: ./debs/clean.deb
 Size: 2186070
