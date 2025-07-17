@@ -1,0 +1,11 @@
+Origin: BVN Roothide
+Label: iPhone/iPad-Jailbreak
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: Apple/Support/Jailbreak
+MD5Sum:
+ d078fb9d7211a5a02e801e943b6fd716 711 Packages
+ 0074495ddb0364af7e67d75975c75bf1 571 Packages.bz2
