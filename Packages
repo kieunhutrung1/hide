@@ -171,7 +171,7 @@ Author: KNT
 
 Package: me.autotouch.autotouch.ios8.inputtext
 Architecture: iphoneos-arm64e
-Version: 8.5.4-A
+Version: 8.5.4
 Section: Tweaks
 Maintainer: Repo Cydia KNT
 Installed-Size: 21635724
@@ -190,12 +190,12 @@ Author: KNT
 
 Package: me.autotouch.autotouch.ios8.inputtext
 Architecture: iphoneos-arm64e
-Version: 8.5.5-B
+Version: 8.5.5
 Section: Tweaks
 Maintainer: Repo Cydia KNT
 Installed-Size: 21636932
-Pre-Depends:
-Depends: firmware (>= 15.0) , ellekit , curl , unzip , com.ccteam.ccinfo
+Pre-Depends: ellekit , curl , unzip , com.ccteam.ccinfo
+Depends: firmware (>= 15.0)
 Conflicts: libc-ares2
 Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_8.5.5_iphoneos-arm64e.deb
 Size: 21636932
