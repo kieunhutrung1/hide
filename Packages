@@ -42,8 +42,8 @@ Version: 8.0.1
 Section: Tweaks
 Maintainer: Repo Cydia KNT
 Installed-Size: 204024
-Pre-Depends: libc-ares2 , libcurl4 , libnghttp2-14 , librtmp1 , libssh2-1
-Depends: firmware (>= 15.0)
+Pre-Depends:
+Depends: firmware (>= 15.0), libc-ares2 , libcurl4 , libnghttp2-14 , librtmp1 , libssh2-1
 Conflicts: ocurl
 Filename: ./debs/curl_8.0.1_iphoneos-arm64e.deb
 Size: 204024
@@ -175,8 +175,8 @@ Version: 8.5.4
 Section: Tweaks
 Maintainer: Repo Cydia KNT
 Installed-Size: 21635724
-Pre-Depends: ellekit , curl , unzip
-Depends: firmware (>= 15.0)
+Pre-Depends:
+Depends: firmware (>= 15.0) , ellekit , curl , unzip
 Conflicts: libc-ares2
 Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_8.5.4_iphoneos-arm64e.deb
 Size: 21635724
@@ -185,7 +185,7 @@ SHA1: 97a22a7e76f5e50f8583ce696b81de45ebdf01bc
 SHA256: 3216b62d7775af890a3d2ddf96d0892d8b093931204c969bb2bb2de9d80bfa2f
 SHA512: 36a1875b9e69e59dfbba736e23ec7d056863412ec82e0df64dad4e6a7f409ca508c536a2a0204d26785954fde95e2c5dac37c99f2b0a9497509475cf1d0b78ae
 Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
-Name: AutoTouch InputText
+Name: AutoTouch InputText 8.5.4
 Author: KNT
 
 Package: me.autotouch.autotouch.ios8.inputtext
@@ -194,8 +194,8 @@ Version: 8.5.5
 Section: Tweaks
 Maintainer: Repo Cydia KNT
 Installed-Size: 21636932
-Pre-Depends: ellekit , curl , unzip
-Depends: firmware (>= 15.0)
+Pre-Depends:
+Depends: firmware (>= 15.0) , ellekit , curl , unzip
 Conflicts: libc-ares2
 Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_8.5.5_iphoneos-arm64e.deb
 Size: 21636932
@@ -204,7 +204,7 @@ SHA1: a6ccbd7d3fef2af77391cf55ffc103a07f9b2ea8
 SHA256: b99ee0ab2b0d099a434798c0b9898a7dc64c96569ddb2337db9b56d36813dfb6
 SHA512: f982d848b02be8f4ede91a09b4c1c50c85ee35cb078c5b8b440563d7f17a06e993a35ea24ed9eb2a8e774aa35130218cc48ec86debf9e812876454ceca5557f2
 Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
-Name: AutoTouch InputText
+Name: AutoTouch InputText 8.5.5
 Author: KNT
 
 Package: ellekit
