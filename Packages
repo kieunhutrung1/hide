@@ -4,7 +4,7 @@ Version: 0.0.2
 Section: Tweaks
 Maintainer: Repo Cydia BVN
 Installed-Size: 2186070
-Pre-Depends: 
+Pre-Depends: libSandy
 Depends: firmware (>= 15.0)
 Conflicts: com.ccteam.ccinfo
 Filename: ./debs/clean.deb
