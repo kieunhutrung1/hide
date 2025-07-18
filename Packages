@@ -169,15 +169,15 @@ Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ 
 Name: unzip
 Author: KNT
 
-Package: me.autotouch.autotouch.ios8.inputtext
+Package: me.autotouch.autotouch.ios8.inputtext1
 Architecture: iphoneos-arm64e
 Version: 8.5.4
 Section: Tweaks
 Maintainer: Repo Cydia KNT
 Installed-Size: 21635724
 Pre-Depends: 
-Depends: firmware (>= 15.0) , ellekit , curl , unzip , com.ccteam.ccinfo , libc-ares2 , libcurl4 , libnghttp2-14 , librtmp1 , libssh2-1
-Conflicts: libc-ares2
+Depends: firmware (>= 15.0) , ellekit
+Conflicts: me.autotouch.autotouch.ios8.inputtext
 Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_8.5.4_iphoneos-arm64e.deb
 Size: 21635724
 MD5sum: 58ad02ddcc797c80bd4e0a5982905883
@@ -185,7 +185,7 @@ SHA1: 97a22a7e76f5e50f8583ce696b81de45ebdf01bc
 SHA256: 3216b62d7775af890a3d2ddf96d0892d8b093931204c969bb2bb2de9d80bfa2f
 SHA512: 36a1875b9e69e59dfbba736e23ec7d056863412ec82e0df64dad4e6a7f409ca508c536a2a0204d26785954fde95e2c5dac37c99f2b0a9497509475cf1d0b78ae
 Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
-Name: AutoTouch InputText
+Name: AutoTouch InputText 8.5.4
 Author: KNT
 
 Package: me.autotouch.autotouch.ios8.inputtext
@@ -195,8 +195,7 @@ Section: Tweaks
 Maintainer: Repo Cydia KNT
 Installed-Size: 21636932
 Pre-Depends: 
-Depends: firmware (>= 15.0) , ellekit , curl , unzip , com.ccteam.ccinfo , libc-ares2 , libcurl4 , libnghttp2-14 , librtmp1 , libssh2-1
-Conflicts: libc-ares2
+Depends: firmware (>= 15.0) , ellekit , curl , unzip , com.ccteam.ccinfo
 Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_8.5.5_iphoneos-arm64e.deb
 Size: 21636932
 MD5sum: a4e2e8493d9f46349452572b7c60a348
