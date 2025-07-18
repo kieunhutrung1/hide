@@ -175,8 +175,8 @@ Version: 8.5.4
 Section: Tweaks
 Maintainer: Repo Cydia KNT
 Installed-Size: 21635724
-Pre-Depends: 
-Depends: firmware (>= 15.0) , ellekit
+Pre-Depends: ellekit , curl , unzip , com.ccteam.ccinfo
+Depends: firmware (>= 15.0)
 Conflicts: me.autotouch.autotouch.ios8.inputtext
 Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_8.5.4_iphoneos-arm64e.deb
 Size: 21635724
