@@ -176,7 +176,7 @@ Section: Tweaks
 Maintainer: Repo Cydia KNT
 Installed-Size: 21635724
 Pre-Depends: 
-Depends: firmware (>= 15.0) , ellekit1 , curl , unzip , com.ccteam.ccinfo
+Depends: firmware (>= 15.0) , ellekit1 , curl , unzip , com.ccteam.ccinfo , network-cmds
 Conflicts: me.autotouch.autotouch.ios8.inputtext
 Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_8.5.4_iphoneos-arm64e.deb
 Size: 21635724
@@ -195,7 +195,7 @@ Section: Tweaks
 Maintainer: Repo Cydia KNT
 Installed-Size: 21636932
 Pre-Depends: 
-Depends: firmware (>= 15.0) , ellekit1 , curl , unzip , com.ccteam.ccinfo
+Depends: firmware (>= 15.0) , ellekit1 , curl , unzip , com.ccteam.ccinfo , network-cmds
 Filename: ./debs/me.autotouch.autotouch.ios8.inputtext_8.5.5_iphoneos-arm64e.deb
 Size: 21636932
 MD5sum: a4e2e8493d9f46349452572b7c60a348
@@ -223,4 +223,61 @@ SHA256: a2ef1e994c145f628f3a9502c8820abd1a617643060c90ddb8db0a0008c724ac
 SHA512: c2d73d398f3b615b82cf5f7c5b219b6293d5e70c26853660cf145c6057c224ac65788392e47ff21655bcc7699fa8644b786adbc89a533e2bc691b2b1d2590a0a
 Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
 Name: ellekit1
+Author: KNT
+
+Package: com.bvn.icatch.r2
+Architecture: iphoneos-arm64e
+Version: 1.1-120+debug
+Section: Utilities
+Maintainer: Repo Cydia KNT
+Installed-Size: 28916
+Pre-Depends:
+Depends: firmware (>= 15.0)
+Conflicts: Icatch
+Filename: ./debs/com.bvn.icatch.r2_1.1-120+debug_iphoneos-arm64e.deb
+Size: 28916
+MD5sum: 1c93065ed7155ba6ab14094fbf982827
+SHA1: e5fa511ea5dc2c27f72d43872a4b102d72ff0f3e
+SHA256: 2667f4a1faf8ddcc59bb181c741a3b2ee5f0c2033259b5abc46aedc77892ec46
+SHA512: b056a02f6dc05d9c6b81f5d72aeece7a1a18861c985f615959f417b05ce6b21e1ad00d012af8a500f27aedd035b5baaec72732a6e393a0477bccab394b69e812
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: Icatch
+Author: KNT
+
+Package: network-cmds
+Architecture: iphoneos-arm64e
+Version: 641-1
+Section: Utilities
+Maintainer: Repo Cydia KNT
+Installed-Size: 260970
+Pre-Depends:
+Depends: firmware (>= 15.0) , libpcapa
+Conflicts: Icatch
+Filename: ./debs/network-cmds_641-1_iphoneos-arm64e.deb
+Size: 260970
+MD5sum: ec0b00bc9559d0df96b7b3d60b3c62eb
+SHA1: 60972e62c31bdd1e9d80b282de1be0f8fed91ac8
+SHA256: 0fc5e260e7308d6bace53276e4383efedbd8f3017bc1c9e214c6b945c7b96c55
+SHA512: 26e158a3ca9e379c187bfaf9375569e36f1275af72aa0dbbd9adb1d425d79c0239272a1d367c73dc5e409547709684c12ada74235774c7eeb0f45c7186401c34
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: network-cmds
+Author: KNT
+
+Package: libpcapa
+Architecture: iphoneos-arm64e
+Version: 1.10.1-1
+Section: Utilities
+Maintainer: Repo Cydia KNT
+Installed-Size: 115572
+Pre-Depends:
+Depends: firmware (>= 15.0)
+Conflicts: Icatch
+Filename: ./debs/libpcapa_1.10.1-1_iphoneos-arm64e.deb
+Size: 115572
+MD5sum: 9e8707068732adf0865ede8121e8aed8
+SHA1: b0d24c66ffafa9f095d2ab6b9af9d3a5dc32d6cd
+SHA256: 78178ee1ed86bd949f89106b1990a32050505737946c133f9b3d25b1377938cb
+SHA512: d0f171e53cb92d14eafa73ba300b804b5c0d0bbc99e89902d1e091be834e2d24613091a1069d951c3339d84e262b7bc44f9d02e953aee0922fbd2e469afc9bf8
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: libpcapa
 Author: KNT
