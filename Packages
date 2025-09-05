@@ -281,3 +281,22 @@ SHA512: d0f171e53cb92d14eafa73ba300b804b5c0d0bbc99e89902d1e091be834e2d24613091a1
 Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
 Name: libpcapa
 Author: KNT
+
+Package: com.mins.mutil
+Architecture: iphoneos-arm64e
+Version: 0.0.1-78+debug
+Section: Utilities
+Maintainer: Repo Cydia KNT
+Installed-Size: 22272282
+Pre-Depends:
+Depends: firmware (>= 15.0)
+Conflicts: Icatch
+Filename: ./debs/com.mins.mutil_0.0.1-78+debug_iphoneos-arm64e.deb
+Size: 22272282
+MD5sum: 5a2759c6249ef3afb77d0333729ace63
+SHA1: 4ffcb5b4f855c9bcb10c2ce671593f7fc6077456
+SHA256: fdfaa46cef26bc40bc734b8e28a18977f810f2ec90342ac9ccb44b4aa6331be8
+SHA512: 8335832142f0e911187e42b7a4a9c09d6ca85b68aa6ac90070a5c059482e4283095544747508467c7e0ec59afb8e6d471ca0e4b3f8d87e752af6b8d6bb74f066
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: Mins Utilities for AutoTouch
+Author: KNT
