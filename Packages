@@ -289,7 +289,7 @@ Section: Utilities
 Maintainer: Repo Cydia KNT
 Installed-Size: 22272282
 Pre-Depends:
-Depends: firmware (>= 15.0)
+Depends: firmware (>= 15.0) , ellekit1
 Conflicts: Icatch
 Filename: ./debs/com.mins.mutil_0.0.1-78+debug_iphoneos-arm64e.deb
 Size: 22272282
@@ -308,7 +308,7 @@ Section: Utilities
 Maintainer: Repo Cydia KNT
 Installed-Size: 22272282
 Pre-Depends:
-Depends: firmware (>= 15.0)
+Depends: firmware (>= 15.0) , AltList , LibSandy , Libundirect , PatchLoader, PreferenceLoader , rootless-compat
 Conflicts: Crane
 Filename: ./debs/com.REPOBVN.crane-rootless_1.3.16-4K_iphoneos-arm64e.deb
 Size: 611716
