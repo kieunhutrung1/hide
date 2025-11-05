@@ -303,7 +303,7 @@ Author: KNT
 
 Package: com.REPOBVN.crane
 Architecture: iphoneos-arm64e
-Version: 0.0.1-78+debug
+Version: 1.3.16-4K
 Section: Utilities
 Maintainer: Repo Cydia KNT
 Installed-Size: 22272282
