@@ -300,3 +300,22 @@ SHA512: 8335832142f0e911187e42b7a4a9c09d6ca85b68aa6ac90070a5c059482e428309554474
 Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
 Name: Mins Utilities for AutoTouch
 Author: KNT
+
+Package: com.REPOBVN.crane
+Architecture: iphoneos-arm64e
+Version: 0.0.1-78+debug
+Section: Utilities
+Maintainer: Repo Cydia KNT
+Installed-Size: 22272282
+Pre-Depends:
+Depends: firmware (>= 15.0)
+Conflicts: Crane
+Filename: ./debs/com.REPOBVN.crane-rootless_1.3.16-4K_iphoneos-arm64e.deb
+Size: 611716
+MD5sum: 9c9580cde3d0f2e4a47d591d9dbbdc28
+SHA1: b150723047a844dae3a5c62252ae8c7b950e62e7
+SHA256: 679271834ce1f8f9be5c1100d70330728f69fb9d226b269af9fdcf07184c1d41
+SHA512: f30f1a1d8930253f4a0027d0d8fade4df5e8653bcffde57795b332c1aaf197c4ddfcc4b625823c7429226d55e388d4bd39020369e37d2f0056a207522d0c169d
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: Mins Utilities for AutoTouch
+Author: KNT
