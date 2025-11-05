@@ -228,21 +228,22 @@ Author: KNT
 Package: com.bvn.icatch.r2
 Architecture: iphoneos-arm64e
 Version: 1.1-120+debug
-Section: Utilities
-Maintainer: Repo Cydia KNT
-Installed-Size: 28916
-Pre-Depends:
-Depends: firmware (>= 15.0)
-Conflicts: Icatch
+Section: Tweaks
+Maintainer: BVN Repo
+Installed-Size: 272
+Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.bvn.icatch.r2_1.1-120+debug_iphoneos-arm64e.deb
 Size: 28916
 MD5sum: 1c93065ed7155ba6ab14094fbf982827
 SHA1: e5fa511ea5dc2c27f72d43872a4b102d72ff0f3e
 SHA256: 2667f4a1faf8ddcc59bb181c741a3b2ee5f0c2033259b5abc46aedc77892ec46
 SHA512: b056a02f6dc05d9c6b81f5d72aeece7a1a18861c985f615959f417b05ce6b21e1ad00d012af8a500f27aedd035b5baaec72732a6e393a0477bccab394b69e812
-Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
-Name: Icatch
-Author: KNT
+Description: ICATCH Phát hiện mỗi tệp .deb bạn tải xuống từ Sileo & Zebra
+Name: iCatch (Roothide)
+Depiction: http://bvnsupport.github.io/infodeb/Html/iCatch.html
+SileoDepiction: https://bvnsupport.github.io/sileodepictions/iCatch.json
+Icon: https://bvnsupport.github.io/depictions/sectionIcons/tinhchinhh1.png
+Author: DeNsor
 
 Package: network-cmds
 Architecture: iphoneos-arm64e
@@ -263,25 +264,24 @@ Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ 
 Name: network-cmds
 Author: KNT
 
-Package: com.bvn.icatch.r2
+Package: libpcapa
 Architecture: iphoneos-arm64e
-Version: 1.1-120+debug
-Section: Tweaks
-Maintainer: BVN Repo
-Installed-Size: 272
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.bvn.icatch.r2_1.1-120+debug_iphoneos-arm64e.deb
-Size: 28916
-MD5sum: 1c93065ed7155ba6ab14094fbf982827
-SHA1: e5fa511ea5dc2c27f72d43872a4b102d72ff0f3e
-SHA256: 2667f4a1faf8ddcc59bb181c741a3b2ee5f0c2033259b5abc46aedc77892ec46
-SHA512: b056a02f6dc05d9c6b81f5d72aeece7a1a18861c985f615959f417b05ce6b21e1ad00d012af8a500f27aedd035b5baaec72732a6e393a0477bccab394b69e812
-Description: ICATCH Phát hiện mỗi tệp .deb bạn tải xuống từ Sileo & Zebra
-Name: iCatch (Roothide)
-Depiction: http://bvnsupport.github.io/infodeb/Html/iCatch.html
-SileoDepiction: https://bvnsupport.github.io/sileodepictions/iCatch.json
-Icon: https://bvnsupport.github.io/depictions/sectionIcons/tinhchinhh1.png
-Author: DeNsor
+Version: 1.10.1-1
+Section: Utilities
+Maintainer: Repo Cydia KNT
+Installed-Size: 115572
+Pre-Depends:
+Depends: firmware (>= 15.0)
+Conflicts: Icatch
+Filename: ./debs/libpcapa_1.10.1-1_iphoneos-arm64e.deb
+Size: 115572
+MD5sum: 9e8707068732adf0865ede8121e8aed8
+SHA1: b0d24c66ffafa9f095d2ab6b9af9d3a5dc32d6cd
+SHA256: 78178ee1ed86bd949f89106b1990a32050505737946c133f9b3d25b1377938cb
+SHA512: d0f171e53cb92d14eafa73ba300b804b5c0d0bbc99e89902d1e091be834e2d24613091a1069d951c3339d84e262b7bc44f9d02e953aee0922fbd2e469afc9bf8
+Description: Hiệu ứng cuộn trang màn hình chính như Barrel.Hỗ trợ từ Ios 15.0 tới ios 16.x
+Name: libpcapa
+Author: KNT
 
 Package: com.mins.mutil
 Architecture: iphoneos-arm64e
